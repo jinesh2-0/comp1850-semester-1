@@ -26,4 +26,3 @@ shopping.insert(1, "yogurt")
 print(shopping)
 
 # Add yoghurt, just after milk
-

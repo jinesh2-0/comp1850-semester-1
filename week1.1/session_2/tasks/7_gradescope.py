@@ -2,24 +2,26 @@
 
 # You are going to write a very simple program:
 print("Enter two numbers to get their multiplication value\n")
+
+int1 = input("Enter number 1 : ")
+
+try :
+    int1 = int(int1)
+except :
+    print("That is not a number")
+    exit()
 # Ask a user to enter two numbers (one per input)
-int1 = int(input("Enter first number :"))
+
+int2 = input("Enter number 1 : ")
+
+try :
+    int2 = int(int2)
+except :
+    print("That is not a number")
+    exit()
+
+print(f"{int1}*{int2} = {int1*int2}")
 # multiply those numbers together
-
-while(int1 != int):
-    print(f"\n{int1} is not an integer")
-    print("Please enter an integer!")
-    int1 = input("Enter first number again :")
-
-int2 = int(input("Enter second number :"))
-
-while(int2 != int):
-    print(f"\n{int2} is not an integer")
-    print("Please enter an integer!")
-    int2 = input("Enter second number again :")
-
-print(f"{int1}*{int2} = int1*int2")
-
 
 # print out the result
 
