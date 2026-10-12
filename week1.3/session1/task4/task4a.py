@@ -7,6 +7,16 @@ for k in range(1,10):
 
 print(sum)
 
+# sum of square of even number upto 20 below
+
+sum = 0
+
+for k in range(0,21,2):
+    sum = sum + k ** 2
+    print(sum)
+
+print(f"Final sum = {sum}")
+
 
 # modify the code to sum the squares of even numbers up to and including 20
 

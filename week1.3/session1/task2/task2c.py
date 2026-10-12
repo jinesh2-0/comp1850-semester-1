@@ -8,7 +8,7 @@ with open('file_data.txt', 'r') as file:
     while True:
         # read by character
         char = file.read(1)            # read exactly 1 character from the file      
-        if not char: 
+        if not char:
             break
 
         print(char)

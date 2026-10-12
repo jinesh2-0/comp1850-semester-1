@@ -1,5 +1,6 @@
 # Week 1.3, Session 1: Task 4b
-
+for x in range (6,50,3):
+    print(x)
 
 
 # create a for loop and use range to print the list of numbers 
